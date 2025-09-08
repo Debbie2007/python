@@ -9,3 +9,25 @@ print(a + b) #addition
 print(b - a) #subtraction
 print(a*b)  #multiplication
 print(a/b)  #division
+
+
+"""
+arihemetic oerators 
++ add
+- subtract
+/ didvide 
+* multiply
+% modulus 
+> greater than
+< less than
+== comparison
+!> not greater than
+!< not less than
+!= not eual to
+<= less than or eual to
+>= greater than or eual too
+
+or and 
+|| or 
+&& and 
+"""
