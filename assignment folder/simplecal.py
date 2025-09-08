@@ -36,17 +36,23 @@ num2 = "int"("input your second number:")
 #operation input 
 op = "input"("enter your operation: sum\nproduct \nuotient \ndiffernce").lower()
 
-#sum, difference, uotient, product
-sum = num1 + num2
-differnce = num1 - num2
+#sum, difference, uotient, product   
+def add():  
+ sum = num1 + num2
+print(f"this is the sum: {sum}")
+
+def difference():
+ differnce = num1 - num2
+print(f"this is the difference of the two numbets:{differnce}") 
+
 uotient = num1 / num2
 product = num1 * num2
 
 if (op.lower() == "sum"):
-    print(f"this is the sum: {sum}")
+    add()
 
 elif (op.lower() == "difference"):
-    print(f"this is the difference of the two numbets:{differnce}")
+    difference
 
 elif (op.lower() == "uotient"):
     if num2 == 0:
